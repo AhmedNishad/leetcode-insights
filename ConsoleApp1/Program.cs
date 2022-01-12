@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using ConsoleApp1.Algorithms.Graph.CourseSchedule;
+using ConsoleApp1.DesignPatterns.Observer;
 namespace ConsoleApp1
 {
     
@@ -8,7 +9,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            CourseSchedule.Test();
+            SimpleObservableTest.Test();
         }
 
         
